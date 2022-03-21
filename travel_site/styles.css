@@ -1,0 +1,157 @@
+@charset "UTF-8";
+body {
+    color: #191919;
+    font-size: 16px;
+    background-image: url(snow.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+	}
+
+#container {
+	width: 768px;
+	height: auto;
+	background-color: white;
+	margin: auto;
+}
+
+
+/*Float Aside Left*/
+aside {
+    width: 150px;
+    height: 1050px;
+    background-color: #8A97A8;
+    float: left;
+    padding-left: 10px;
+}
+.floatLeft {
+    float: left;
+    height: 160px;
+    width: auto;
+}
+
+header {
+    width: 768px;
+    height: 225px;
+    background-color: #6AA3A8;
+    background-repeat: no-repeat;
+    background-image: url(travel_page.png);
+}
+/*Float Left Next To Aside*/
+main {
+    width: 588px;
+    height: 1030px;
+    background-color: #B68585;
+    float: left;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+/*Clear Float*/
+footer {
+    width: 768px;
+    height: 50px;
+    background-color: #C1A2C1;
+    clear: both;
+}
+#container {
+}
+h1 {
+	color: #000000;
+    font-size: 30px;
+    font-family: "Nueva Std Bold";
+}
+nav {
+    width: 768px;
+    height: 50px;
+    background-color: #131C48;
+}
+#container nav li {
+    display: block;
+    list-style-type: none;
+    float: left;
+    font-size: 25px;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    width: 100px;
+    margin-right: 100px;
+}
+#container nav ul {
+    margin: auto;
+    width: 600px;
+    padding-top: 13px;
+    padding-left: 100px;
+}
+
+nav a:link {
+    color: #C2D0EA;
+    text-decoration: none;
+	padding: 6px;
+}
+nav a:visited {
+    text-decoration: none;
+    color: #64AAAB;
+}
+nav a:hover {
+    text-decoration: none;
+    color: #131C48;
+	background-color: #7EAFB3;
+	padding: 6px;
+	border-radius: 20px;
+}
+nav a:active {
+    text-decoration: none;
+    color: #C1D0EA;
+}
+h1 {
+    color: #111940;
+    padding-bottom: 5px;
+}
+p {
+    color: #E3E9F4;
+    font-size: 20px;
+}
+img   {
+    width: 280px;
+    height: auto;
+    float: right;
+    padding-top: 0px;
+    padding-right: 10px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+}
+h2 {
+    color: #283744;
+    padding-bottom: 15px;
+    margin-top: 0px;
+    padding-top: 30px;
+}
+#container aside h3 {
+    color: #293744;
+}
+main article p {
+    padding-bottom: 35px;
+}
+.floatLeft {
+}
+form p #user_name {
+}
+
+.submit_btn {
+    width: 170px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #92B4E0;
+    color: #FFFFFF;
+    font-size: 16px;
+   
+}
+
+.submit_btn:hover {
+	-webkit-box-shadow: 6px 6px 35px 1px #000000;
+    box-shadow: 6px 6px 35px 1px #000000;
+}
+	
